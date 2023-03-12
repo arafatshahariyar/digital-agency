@@ -30,14 +30,7 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
-.nav-title ul li:hover{
-    background-color: brown;
-    color: white;
-    border: 5px;
-    border-radius: 10px ;
-    text-decoration: underline;
-    padding: 10px;
-}
+
 /* nav section ends  */
 
 /* banner section starts */
