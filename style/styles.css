@@ -37,7 +37,9 @@
 .head-container{
     width: 100%;
     height: 100vh;
-    background-image:url(/images/image/background-1.jpg);
+    background-image:url(/images/image/background.jpg),
+    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;;
     background-position: center;
     color: white;
     display: flex;
@@ -73,7 +75,9 @@
 
 /* contact section starts */
 .contacts{
-   background-color: black;
+   background-image: url(/images/image/footer-bg.png),
+   linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+   background-blend-mode: overlay;
    color: white;
    padding: 1% 2%;
 }
@@ -117,4 +121,13 @@
     width: 150px;
     color: red;
     text-transform: uppercase;
+}
+.first-card img{
+   background-color: white;
+   padding: 5px;
+   width: 50%;
+   height: 50%;
+}
+.img-1{
+    width: 50%;
 }
