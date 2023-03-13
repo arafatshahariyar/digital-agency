@@ -39,7 +39,7 @@
     height: 100vh;
     background-image:url(/images/image/background.jpg),
     linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
-    background-blend-mode: overlay;;
+    /* background-blend-mode: overlay;; */
     background-position: center;
     color: white;
     display: flex;
