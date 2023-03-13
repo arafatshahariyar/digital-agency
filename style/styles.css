@@ -75,9 +75,9 @@
 
 /* contact section starts */
 .contacts{
-   background-image: url(/images/image/footer-bg.png),
-   linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
-   background-blend-mode: overlay;
+   background-image: url(/images/image/footer-bg.png);
+   /* linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+   background-blend-mode: overlay; */
    color: white;
    padding: 1% 2%;
 }
