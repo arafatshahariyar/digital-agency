@@ -59,7 +59,7 @@
     font-size: 1.5rem;
 }
 .btn button{
-    width: 120px;
+   width: 120px;
    height: 50px;
    border: none;
    border-radius: 25px ;
@@ -78,6 +78,7 @@
    background-image: url(/images/image/footer-bg.png),
    linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
    background-blend-mode: overlay;
+   height: 100vh;
    color: white;
    padding: 1% 2%;
    display: flex;
@@ -221,3 +222,42 @@
     width: 50%;
 }
 /*  contact section ends  */
+
+/* appointment section starts */
+.call-icons{
+    width: 120px;
+    padding: 5px 5px;
+    margin-right: 20px;
+}
+.appointment-container{
+    display: flex;
+    border-right: 1px solid seagreen;
+    padding-right: 10px;
+}
+.appointment-section{
+    display: flex;
+    width: 75%;
+    background-color: red;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -50px;
+    box-shadow: 12px 10px 10px black;
+}
+.call-btn{
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.appointment-items p{
+    font-size: 1rem;
+    margin: 15px;
+}
+ /* appointment section ends  */
